@@ -5,7 +5,7 @@ function NavComp({ cDy, sb }) {
     return (
         <Navbar fixed="top" bg="dark" variant="dark" expand="sm">
             <Container fluid="sm">
-                <Navbar.Brand href="/" id="main" onClick={() => { return location.reload() }}><h1 className='nav-h-text'>Jamscc Portfolio</h1></Navbar.Brand>
+                <Navbar.Brand href="/web-app-portfolio/" id="main" onClick={() => { return location.reload() }}><h1 className='nav-h-text'>Jamscc Portfolio</h1></Navbar.Brand>
                 <Nav>
                     <Nav.Item>
                         <Nav.Link href="#about" id="about" onClick={cDy} style={sb}>About Jamscc</Nav.Link>

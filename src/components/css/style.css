@@ -75,6 +75,15 @@
     text-decoration: none;
 }
 
+/* Contact-Section */
+.contact-form {
+    padding: 150px 50px;
+}
+
+#fdb {
+    color: #ff0000;
+}
+
 /* Res Section */
 .res {
     padding: 150px;
@@ -136,6 +145,21 @@
 
     #card-te {
         font-size: .7em;
+    }
+}
+
+/* Contact-Section */
+@media screen and (max-width: 580px) {
+    .contact-form {
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .contact-form {
+        padding-top: 300px;
+        padding-bottom: 300px;
     }
 }
 
