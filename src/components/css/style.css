@@ -7,3 +7,13 @@
 .em-cl {
     background-color: var(--page-color-gr);
 }
+
+/* Nav-Comp */
+.nav-h-text {
+    font-size: 2rem;
+    font-family: cursive;
+}
+
+#about {
+    text-align: center;
+}
