@@ -31,3 +31,45 @@
 .footer-links:hover {
     opacity: .8;
 }
+
+/* About-Section */
+.about-mq {
+    padding-top: 100px;
+}
+
+.about-container {
+    padding-top: 75px;
+    padding-bottom: 100px;
+}
+
+#about-img {
+    width: 300px;
+    height: 325px;
+}
+
+#about-text {
+    margin-top: 32px;
+    font-size: large;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+}
+
+/* About-Section */
+@media screen and (max-width: 750px) {
+    .about-mq {
+        padding-top: 100px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .about-mq {
+        padding-top: 170px;
+    }
+}
+
+@media screen and (max-width: 345px) {
+    .about-mq {
+        padding-top: 200px;
+    }
+}
