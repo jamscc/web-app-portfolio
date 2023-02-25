@@ -55,6 +55,26 @@
     line-height: 1.5em;
 }
 
+/* Project-Comp */
+.portfolio-s {
+    padding: 125px 75px;
+}
+
+.img-pt {
+    opacity: .5;
+}
+
+.img-pt:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.a-link {
+    display: inline-block;
+    font-family: cursive;
+    text-decoration: none;
+}
+
 /* About-Section */
 @media screen and (max-width: 750px) {
     .about-mq {
@@ -71,5 +91,36 @@
 @media screen and (max-width: 345px) {
     .about-mq {
         padding-top: 200px;
+    }
+}
+
+/* Project-Comp */
+@media screen and (max-width: 575px) {
+    .portfolio-s {
+        padding: 225px 75px;
+    }
+
+    #card-tl {
+        font-size: 1.25em;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .portfolio-s {
+        padding: 275px 75px;
+    }
+
+    #card-tl {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 275px) {
+    #card-tl {
+        font-size: .7em;
+    }
+
+    #card-te {
+        font-size: .7em;
     }
 }
