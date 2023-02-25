@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/web-app-portfolio/static/css/main.0f0a15bd.css",
+    "main.js": "/web-app-portfolio/static/js/main.5b006345.js",
+    "static/media/wd.png": "/web-app-portfolio/static/media/wd.fa340dbf3da167379c04.png",
+    "static/media/gt.png": "/web-app-portfolio/static/media/gt.1e26b354080130b677ca.png",
+    "static/media/avatar.png": "/web-app-portfolio/static/media/avatar.4bf5a447b8967487028b.png",
+    "static/media/mvc.png": "/web-app-portfolio/static/media/mvc.093067bdba9a35b47918.png",
+    "static/media/btr.png": "/web-app-portfolio/static/media/btr.6409f47563419ce04241.png",
+    "static/media/sn.png": "/web-app-portfolio/static/media/sn.af155215b0247cde6d4b.png",
+    "static/media/ec.png": "/web-app-portfolio/static/media/ec.0af5eb96f0ce4a5078a4.png",
+    "index.html": "/web-app-portfolio/index.html",
+    "main.0f0a15bd.css.map": "/web-app-portfolio/static/css/main.0f0a15bd.css.map",
+    "main.5b006345.js.map": "/web-app-portfolio/static/js/main.5b006345.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f0a15bd.css",
+    "static/js/main.5b006345.js"
+  ]
+}
