@@ -17,3 +17,17 @@
 #about {
     text-align: center;
 }
+
+/* Footer-Section */
+.footer-links {
+    border-top-color: #ffffff;
+    border-left-color: #ffffff;
+    border-right-color: #ffffff;
+    border-style: solid;
+    padding: 2em;
+    border-radius: 2em;
+}
+
+.footer-links:hover {
+    opacity: .8;
+}
