@@ -1,0 +1,9 @@
+/* background color */
+:root {
+    background-color: #e8e7ed;
+    --page-color-gr: #e8e7ed;
+}
+
+.em-cl {
+    background-color: var(--page-color-gr);
+}

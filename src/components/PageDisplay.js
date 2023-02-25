@@ -1,6 +1,12 @@
+import HeaderSection from './sections/Header-Section';
+import FooterSection from './sections/Footer-Section';
+import './css/style.css';
+
 const PageDisplay = () => {
     return (
-        <div>
+        <div className="em-cl">
+            <HeaderSection />
+            <FooterSection />
         </div>
     );
 }
