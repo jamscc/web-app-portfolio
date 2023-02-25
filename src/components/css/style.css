@@ -75,6 +75,20 @@
     text-decoration: none;
 }
 
+/* Res Section */
+.res {
+    padding: 150px;
+}
+
+.e-item {
+    display: inline-block;
+    margin: 8px;
+}
+
+.cnt-link {
+    margin-left: 8px;
+}
+
 /* About-Section */
 @media screen and (max-width: 750px) {
     .about-mq {
@@ -122,5 +136,18 @@
 
     #card-te {
         font-size: .7em;
+    }
+}
+
+/* Res Section */
+@media screen and (max-width: 580px) {
+    .res {
+        padding: 225px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .res {
+        padding: 275px;
     }
 }

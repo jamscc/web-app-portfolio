@@ -55,4 +55,21 @@ const proj = [
     }
 ];
 
-export { proj };
+const fs = [
+    { id: 1, te: 'React' },
+    { id: 2, te: 'HTML' },
+    { id: 3, te: 'Bootstrap' },
+    { id: 4, te: 'CSS' },
+    { id: 5, te: 'jQuery' },
+    { id: 6, te: 'JavaScript' },
+    { id: 7, te: 'MVC' },
+    { id: 8, te: 'Node' },
+    { id: 9, te: 'API(s)' },
+    { id: 10, te: 'MongoDB' },
+    { id: 11, te: 'MySQL' },
+    { id: 12, te: 'Mongoose' },
+    { id: 13, te: 'Sequelize' },
+    { id: 14, te: 'Express' }
+];
+
+export { proj, fs };

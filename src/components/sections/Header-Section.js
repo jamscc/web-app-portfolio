@@ -2,7 +2,8 @@ import NavComp from './Nav-Comp';
 import AboutSection from './About-Section';
 import { useState } from 'react';
 import PortfolioSection from './Portfolio-Section';
-import { proj } from './projects';
+import { proj, fs } from './projects';
+import ResSection from './Res-Section';
 import '../css/style.css';
 
 // header / nav
@@ -24,6 +25,7 @@ function HeaderSection() {
                 {dy === 'main' && (<AboutSection />)}
                 {dy === 'about' && (<AboutSection />)}
                 {dy === 'portfolio' && (<PortfolioSection projects={proj} />)}
+                {dy === 'res' && (<ResSection fs={fs} />)}
             </div>
         </>
     );
