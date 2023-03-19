@@ -1,4 +1,5 @@
 import { Card, Col, Row } from 'react-bootstrap';
+import cdt from './images/cdt.png'
 import mvc from './images/mvc.png';
 import wd from './images/wd.png';
 import btr from './images/btr.png';
@@ -16,6 +17,7 @@ function ProjectComp({ projects }) {
                         <Col key={proj.projId}>
                             <Card>
                                 <a href={proj.dLink} target="_blank" rel="noreferrer">
+                                    {proj.projSS === 'cdt.png' && <Card.Img className="img-pt" variant="top" src={cdt} alt={proj.projAlt} />}
                                     {proj.projSS === 'mvc.png' && <Card.Img className="img-pt" variant="top" src={mvc} alt={proj.projAlt} />}
                                     {proj.projSS === 'wd.png' && <Card.Img className="img-pt" variant="top" src={wd} alt={proj.projAlt} />}
                                     {proj.projSS === 'btr.png' && <Card.Img className="img-pt" variant="top" src={btr} alt={proj.projAlt} />}

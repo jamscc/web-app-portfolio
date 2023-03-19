@@ -1,6 +1,15 @@
 const proj = [
     {
         projId: 1,
+        projName: 'Code Tracker',
+        projSS: 'cdt.png',
+        projAlt: 'code tracker webpage',
+        rLink: 'https://github.com/jamscc/Project-3-Coding-Bootcamp',
+        dLink: 'https://guarded-fjord-17744.herokuapp.com/',
+        dTp: 'deployed application'
+    },
+    {
+        projId: 2,
         projName: 'Tech Blog (MVC)',
         projSS: 'mvc.png',
         projAlt: 'tech blog (MVC) webpage',
@@ -9,7 +18,7 @@ const proj = [
         dTp: 'deployed application'
     },
     {
-        projId: 2,
+        projId: 3,
         projName: 'Weather Dashboard',
         projSS: 'wd.png',
         projAlt: 'weather dashboard webpage',
@@ -18,7 +27,7 @@ const proj = [
         dTp: 'deployed application'
     },
     {
-        projId: 3,
+        projId: 4,
         projName: 'Basketball Tracker',
         projSS: 'btr.png',
         projAlt: 'basketball tracker webpage',
@@ -27,7 +36,7 @@ const proj = [
         dTp: 'deployed application'
     },
     {
-        projId: 4,
+        projId: 5,
         projName: 'Got Time?',
         projSS: 'gt.png',
         projAlt: 'Got Time? webpage',
@@ -36,7 +45,7 @@ const proj = [
         dTp: 'deployed application'
     },
     {
-        projId: 5,
+        projId: 6,
         projName: 'API - Social Network',
         projSS: 'sn.png',
         projAlt: 'API - Social Network App',
@@ -45,7 +54,7 @@ const proj = [
         dTp: 'walkthrough video'
     },
     {
-        projId: 6,
+        projId: 7,
         projName: 'Back-end Ecommerce',
         projSS: 'ec.png',
         projAlt: 'Back-end E-commerce',
